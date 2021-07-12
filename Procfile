@@ -1,1 +1,1 @@
-web: python main.py runserver 0.0.0.0:5000 
+web: waitress-serve --port=8000 --host=127.0.0.1 main:app
