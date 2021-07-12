@@ -33,11 +33,14 @@ h1{
     font-family: Otomanopee One;
     border-radius: 7px;
     margin: auto;
-    width: 45%;
+    width: 65%;
     padding: 10px;
 }
 
 #imgchange {
     border: 2px solid white;
     border-radius: 6px;
+    margin: auto;
+    width: 55%;
+    padding: 10px;
 }

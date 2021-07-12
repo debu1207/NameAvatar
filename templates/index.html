@@ -38,8 +38,14 @@
     $(document).ready(function(){
         $('button').click(function(){
             const name = $('#nameid').val();
+            if (name == "nameavatar"){
+                $('#imgchange').attr('src', "static/welcome.jpg");
+                $('a').attr('href',"static/welcome.jpg");
+            }
+            else{
             $('#imgchange').attr('src', `https://joeschmoe.io/api/v1/${name}`);
             $('a').attr('href',`https://joeschmoe.io/api/v1/${name}`);
+            }
 
         });
     });
