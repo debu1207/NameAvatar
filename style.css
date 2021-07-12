@@ -1,0 +1,43 @@
+body {
+    background: rgb(42, 112, 63);
+    color: white;
+    font-family: Otomanopee One;
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(226, 141, 72);
+    margin: auto;
+    padding: 5px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#button {
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+#nameid{
+    border-radius: 4px;
+}
+
+.centerDiv {
+    text-align: center;
+    position: relative;
+    background: grey;
+    color: white;
+    font-family: Otomanopee One;
+    border-radius: 7px;
+    margin: auto;
+    width: 45%;
+    padding: 10px;
+}
+
+#imgchange {
+    border: 2px solid white;
+    border-radius: 6px;
+}
